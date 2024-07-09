@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Favicon.png" type="image/x-icon">
+    <title>Quiz Lógica Computacional</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header class="cabecario">
+            <h1>Quiz Sobre HTML</h1>
+        </header>
+        <p class="subcabecario">Desenvolvido por Gabriel Lorenssetti</p>
+
+        <hr>
+
+        <div class="perguntas">
+
+            <div class="agrupamentoPerguntas">
+                <section class="section">
+
+                    <!-- Link -->
+                    <div class="perguntaNumero1"><h3>Pergunta 1</h3></div>
+                    <p>Essa tag specifica as relações entre o documento atual e um recurso externo? Possíveis usos para este elemento incluem a definição de uma estrutura relacional para navegação. Este elemento é mais utilizado para vincular as folhas de estilo. </p>
+                    
+                </section>
+                
+                <h2 class="Respostas">Escolha a sua Resposta</h2>
+                
+                <select id="selectMenu1">
+                    
+                    <option value= 0 id="optionErrada">Alternativas</option>
+                    <option value= 5 >link</option>
+                    <option value= 0 >title</option>
+                    <option value= 0 >header</option>
+                    <option value= 0 >div</option>
+                    
+               </select>
+            </div>
+            
+            <div class="agrupamentoPerguntas">
+                <section class="section">
+
+                    <!-- Title -->
+                    <div class="perguntaNumero2"><h3>Pergunta 2</h3></div>
+                    <p>Essa tag define o título do documento, mostrado na barra de título de um navegador ou na aba da página? Pode conter somente texto e quaisquer marcações contidas no texto não são interpretadas.</p>
+                    
+                </section>
+                
+                <h2 class="Respostas">Escolha a sua Resposta</h2>
+
+                <select id="selectMenu2">
+        
+                        <option value="0" id="optionErrada">Alternativas</option>
+                        <option value= 0 >link</option>
+                        <option value= 5 >title</option>
+                        <option value= 0 >header</option>
+                        <option value= 0 >div</option>
+        
+                </select>
+            </div>
+
+            <div class="agrupamentoPerguntas">
+                <section class="section" >
+    
+                    <!-- header -->
+                    <div class="perguntaNumero3"><h3>Pergunta 3</h3></div>
+                    <p>Essa tag representa um grupo de suporte introdutório ou de navegação. Pode conter alguns elementos de cabeçalho, mas também outros elementos como um logotipo, ferramentas de cabeçalho, formulário de pesquisa e outros.</p>
+                    
+                </section>
+                
+                <h2 class="Respostas">Escolha a sua Resposta</h2>
+
+                <select id="selectMenu3">
+        
+                    <option  value="0" id="optionErrada">Alternativas</option>
+                    <option value= 0 >link</option>
+                    <option value= 0 >title</option>
+                    <option value= 5 >header</option>
+                    <option value= 0 >div</option>
+        
+                </select>
+            </div>
+
+            <div class="agrupamentoPerguntas">
+                <section class="section">
+    
+                    <!-- header -->
+                    <div class="perguntaNumero4"><h3>Pergunta 4</h3></div>
+                    <p>Essa tag é um contêiner genérico para conteúdo de fluxo, que de certa forma não representa nada. Ele pode ser usado para agrupar elementos para fins de estilo (usando class ou id ), ou porque eles fornecem valores de atributos, como lang .</p>
+                    
+                </section>
+                
+                <h2 class="Respostas">Escolha a sua Resposta</h2>
+                
+                <select id="selectMenu4">
+        
+                    <option value="0" id="optionErrada">Alternativas</option>
+                    <option value= 0 > link </option>
+                    <option value= 0 >title</option>
+                    <option value= 0 >header</option>
+                    <option value= 5 >div</option>
+        
+                </select>
+            </div>
+
+            <div class="pontuacao" >
+                <label>Sua pontuação</label>
+                <input type="number" id="Resultado" readonly>
+                <button onclick="MostrarValoresSelect()" >Finalizar Quiz</button>
+            </div>
+            
+        </div>
+    </div>
+</body>
+
+<script src="file.js"></script>
+
+</html>

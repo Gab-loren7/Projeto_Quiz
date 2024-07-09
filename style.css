@@ -1,0 +1,165 @@
+/* Paleta de Cores
+    background-color: #6A36D9;
+    color: #D2F25C;
+*/
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #6A36D9;
+}
+
+.container{
+    height: 500px;
+}
+
+.cabecario{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 5%;
+    
+    color:#D2F25C;
+    font-size: 26px;
+}
+
+.subcabecario{
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    margin-top: -20px;
+    
+    font-size: 18px;
+    color: #D2F25C;
+}
+
+hr{
+    border: 1px solid #D2F25C;
+}
+
+.perguntas{
+    text-align: center;
+    align-items: center;
+    
+    /* border: 1px solid red; */
+}
+
+.Respostas{
+    color: #D2F25C;
+    font-size: 28PX;
+
+    margin-top: 10%;
+}
+
+section{
+    background-color: white;
+    
+    width: 300px;
+    height: 200px;
+    
+    display: inline-block;
+    padding: 8%;
+    margin: 2% 2%;
+    
+    border: 2px solid black;
+    border-radius: 5%;
+    
+}
+
+.perguntaNumero1, .perguntaNumero2, .perguntaNumero3, .perguntaNumero4{
+    border: 1px solid #D2F25C;
+    max-width: 70%;
+    
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    background-color: #6A36D9;
+    color: #D2F25C;
+}
+
+p{
+    text-align: justify;
+}
+
+.alternativas{
+    /* border: 1px solid red; */
+    
+    margin-top: 1%;
+    text-align: center;
+    
+}
+
+.agrupamentoPerguntas{
+    display: inline-block;
+    width: 20%;
+    height: 15%;
+    margin-top: 10px;
+}
+select{
+    width: 300px;
+    height: 50px;
+
+    color: #6A36D9;
+
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+
+    margin: 2% 2% 0% 0%;
+
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+option{
+    background-color: #6A36D9;
+    color: #D2F25C;
+}
+
+.pontuacao{
+    padding: 15px;
+    margin-top: 5%;
+    background-color: #D2F25C;
+}
+
+.pontuacao label{
+    color: #6A36D9;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.pontuacao input{
+    background-color: #6A36D9;
+    color: #D2F25C;
+    text-align: center;
+
+    width: 50px;
+    height: 40px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+
+    font-size: 26px;
+}
+
+.pontuacao button{
+    background-color: #6A36D9;
+    color: #D2F25C;
+    font-weight: 600;
+    font-size: 18px;
+
+    width: 150px;
+    height: 50px;
+
+    border: 2px solid black;
+    border-radius: 20px;
+
+    cursor: pointer;
+    transition: 0.5S;
+}
+
+.pontuacao button:hover{
+    background-color: white;
+    color: #6A36D9;
+}
